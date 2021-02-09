@@ -4,11 +4,11 @@
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>CloudBOX | Responsive Bootstrap 4 Admin Dashboard Template</title>
+      <title>ACMShare &mdash; File Sharing got easier</title>
       
       <!-- Favicon -->
       <link rel="shortcut icon" href="../assets/images/favicon.ico" />
-      
+
       <link rel="stylesheet" href="../assets/css/backend.min.css">
       <link rel="stylesheet" href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
       <link rel="stylesheet" href="../assets/vendor/line-awesome/dist/line-awesome/css/line-awesome.min.css">
@@ -72,6 +72,13 @@
                           </ul>
                        </li>
                        <li class=" ">
+                              <a href="../backend/page-folders.html" class="">
+                                  <i class="las la-stopwatch iq-arrow-left"></i><span>Recent</span>
+                              </a>
+                          <ul id="page-folders" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
+                          </ul>
+                       </li>
+                       <li class=" ">
                           <a href="#mydrive" class="collapsed" data-toggle="collapse" aria-expanded="false">
                               <i class="las la-hdd"></i><span>My Drive</span>
                               <i class="las la-angle-right iq-arrow-right arrow-active"></i>
@@ -93,13 +100,7 @@
                           <ul id="page-files" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
                           </ul>
                        </li>
-                       <li class=" ">
-                              <a href="../backend/page-folders.html" class="">
-                                  <i class="las la-stopwatch iq-arrow-left"></i><span>Recent</span>
-                              </a>
-                          <ul id="page-folders" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
-                          </ul>
-                       </li>
+                       
           </div>
           </div>       <div class="iq-top-navbar">
           <div class="iq-navbar-custom">
@@ -127,7 +128,6 @@
                                       <li><a href="#"><div class="item"><i class="far fa-file-excel bg-success"></i>Spreadsheet</div></a></li>
                                       <li><a href="#"><div class="item"><i class="far fa-file-powerpoint bg-danger"></i>Presentation</div></a></li>
                                       <li><a href="#"><div class="item"><i class="far fa-file-image bg-warning"></i>Photos & Images</div></a></li>
-                                      <li><a href="#"><div class="item"><i class="far fa-file-video bg-info"></i>Videos</div></a></li>
                                   </ul>
                               </div>
                           </div>
@@ -189,49 +189,13 @@
                                                       </a>
                                                   </div>
                                                   <div class="profile-detail mt-3">
-                                                  <h5><a href="../app/user-profile-edit.html">Panny Marco</a></h5>
+                                                  <h5>Panny</a></h5>
+                                                  <h6><a href="/app/user-profile-edit.html">Edit Profile</a></h6>
                                                   <p><a href=""></a></p>
                                                   </div>
-                                                  <a href="auth-sign-in.html" class="btn btn-primary">Sign Out</a>
+                                                  <a href="/index.html" class="btn btn-primary">Sign Out</a>
                                               </div>
-                                              <div class="profile-details mt-4 pt-4 border-top">
-                                                  <div class="media align-items-center mb-3">
-                                                      <div class="rounded-circle iq-card-icon-small bg-primary">
-                                                          A
-                                                      </div>
-                                                      <div class="media-body ml-3">
-                                                          <div class="media justify-content-between">
-                                                              <h6 class="mb-0">Anna Mull</h6>
-                                                              <p class="mb-0 font-size-12"><i>Signed Out</i></p>
-                                                          </div>
-                                                          <p class="mb-0 font-size-12"></p>
-                                                      </div>                                                 
-                                                  </div>
-                                                  <div class="media align-items-center mb-3">
-                                                      <div class="rounded-circle iq-card-icon-small bg-success">
-                                                          K
-                                                      </div>
-                                                      <div class="media-body ml-3">
-                                                          <div class="media justify-content-between">
-                                                              <h6 class="mb-0">King Poilin</h6>
-                                                              <p class="mb-0 font-size-12"><i>Signed Out</i></p>
-                                                          </div>
-                                                          <p class="mb-0 font-size-12"><a href=""></a></p>
-                                                      </div>
-                                                  </div>
-                                                  <div class="media align-items-center">
-                                                      <div class="rounded-circle iq-card-icon-small bg-danger">
-                                                          D
-                                                      </div>
-                                                      <div class="media-body ml-3">
-                                                          <div class="media justify-content-between">
-                                                              <h6 class="mb-0">Devid Worner</h6>
-                                                              <p class="mb-0 font-size-12"><i>Signed Out</i></p>
-                                                          </div>
-                                                          <p class="mb-0 font-size-12"><a href=""></a></p>
-                                                      </div>
-                                                  </div>
-                                              </div>
+                                              
                                           </div>
                                       </div>
                                   </div>
@@ -254,18 +218,7 @@
                             </div>
                             <div class="card-header-toolbar d-flex align-items-center">
                                 <div class="card-header-toolbar">
-                                    <div class="dropdown">
-                                        <span class="dropdown-toggle dropdown-bg btn bg-white" id="dropdownMenuButton1"
-                                            data-toggle="dropdown">
-                                            Name<i class="ri-arrow-down-s-line ml-1"></i>
-                                        </span>
-                                        <div class="dropdown-menu dropdown-menu-right shadow-none"
-                                            aria-labelledby="dropdownMenuButton1">
-                                            <a class="dropdown-item" href="#">Last modified</a>
-                                            <a class="dropdown-item" href="#">Last modifiedby me</a>
-                                            <a class="dropdown-item" href="#">Last opened by me</a>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -330,18 +283,7 @@
                                 <h4 class="card-title">Folders</h4>
                             </div>
                             <div class="card-header-toolbar">
-                                <div class="dropdown">
-                                    <span class="dropdown-toggle dropdown-bg btn bg-white" id="dropdownMenuButton1"
-                                        data-toggle="dropdown">
-                                        Name<i class="ri-arrow-down-s-line ml-1"></i>
-                                    </span>
-                                    <div class="dropdown-menu dropdown-menu-right shadow-none"
-                                        aria-labelledby="dropdownMenuButton1">
-                                        <a class="dropdown-item" href="#">Last modified</a>
-                                        <a class="dropdown-item" href="#">Last modifiedby me</a>
-                                        <a class="dropdown-item" href="#">Last opened by me</a>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -628,13 +570,20 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 text-right">
-                    Copyright 2020 <a href="#">CloudBOX</a> All Rights Reserved.
+                    <span>
+                        <script>
+                            const today = new Date()
+                            const getYear = today.getFullYear()
+                            document.write(getYear)
+                        </script>
+                    </span>
+                     <a href="#">ACMShare</a> All Rights Reserved.
                 </div>
             </div>
         </div>
     </footer>
     <!-- Backend Bundle JavaScript -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/js/backend-bundle.min.js"></script>
+    <script src="../assets/js/backend-bundle.min.js"></script>
     
     <!-- Chart Custom JavaScript -->
     <script src="../assets/js/customizer.js"></script>
