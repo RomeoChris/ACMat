@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>CloudBOX | Responsive Bootstrap 4 Admin Dashboard Template</title>
+      <title>ACMShare &mdash; File Sharing got easier</title>
       
       <!-- Favicon -->
       <link rel="shortcut icon" href="../assets/images/favicon.ico" />
@@ -40,7 +40,7 @@
       
       <div class="iq-sidebar  sidebar-default ">
           <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
-              <a href="index.html" class="header-logo">
+              <a href="/backend/dashboard.html" class="header-logo">
                   <img src="../assets/images/logo.png" class="img-fluid rounded-normal light-logo" alt="logo">
                   <img src="../assets/images/logo-white.png" class="img-fluid rounded-normal darkmode-logo" alt="logo">
               </a>
@@ -65,48 +65,64 @@
               <nav class="iq-sidebar-menu">
                   <ul id="iq-sidebar-toggle" class="iq-menu">
                        <li class="active">
-                              <a href="../backend/index.html" class="">
+                              <a href="/backend/dashboard.html" class="">
                                   <i class="las la-home iq-arrow-left"></i><span>Dashboard</span>
                               </a>
                           <ul id="dashboard" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
                           </ul>
                        </li>
                        <li class=" ">
-                          <a href="#mydrive" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                              <i class="las la-hdd"></i><span>My Drive</span>
-                              <i class="las la-angle-right iq-arrow-right arrow-active"></i>
-                              <i class="las la-angle-down iq-arrow-right arrow-hover"></i>
-                          </a>
-                          <ul id="mydrive" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
-                                  <li class=" ">
-                                          <a href="../backend/page-alexa.html">
-                                              <i class="lab la-blogger-b"></i><span>Alexa Workshop</span>
-                                          </a>
-                                  </li>
+                        <a href="/backend/page-folders.html" class="">
+                            <i class="las la-stopwatch iq-arrow-left"></i><span>Recent</span>
+                        </a>
+                    <ul id="page-folders" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
+                    </ul>
+                 </li>
+                       <li class=" ">
+                            <a href="#mydrive" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                                <i class="las la-hdd"></i><span>My Drive</span>
+                                <i class="las la-angle-right iq-arrow-right arrow-active"></i>
+                                <i class="las la-angle-down iq-arrow-right arrow-hover"></i>
+                            </a>
+                            <ul id="mydrive" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
+                                <li class=" ">
+                                    <a href="/backend/folder-1.html">
+                                        <i class="lab la-blogger-b"></i><span>Year 1</span>
+                                    </a>
+                            </li>
+                            <li class=" ">
+                            <a href="/backend/folder-2.html">
+                                <i class="lab la-blogger-b"></i><span>Year 2</span>
+                            </a>
+                            </li>
+                            <li class=" ">
+                            <a href="/backend/folder-3.html">
+                                <i class="lab la-blogger-b"></i><span>Year 3</span>
+                            </a>
+                            </li>
+                            <li class=" ">
+                            <a href="/backend/folder-4.html">
+                                <i class="lab la-blogger-b"></i><span>Year 4</span>
+                            </a>
+                            </li>
                                   
                           </ul>
                        </li>
                        <li class=" ">
-                              <a href="../backend/page-files.html" class="">
+                              <a href="/backend/page-files.html" class="">
                                   <i class="lar la-file-alt iq-arrow-left"></i><span>Files</span>
                               </a>
                           <ul id="page-files" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
                           </ul>
                        </li>
-                       <li class=" ">
-                              <a href="../backend/page-folders.html" class="">
-                                  <i class="las la-stopwatch iq-arrow-left"></i><span>Recent</span>
-                              </a>
-                          <ul id="page-folders" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
-                          </ul>
-                       </li>
+                       
           </div>
           </div>       <div class="iq-top-navbar">
           <div class="iq-navbar-custom">
               <nav class="navbar navbar-expand-lg navbar-light mt-2">
               <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
                   <i class="ri-menu-line wrapper-menu"></i>
-                  <a href="index.html" class="header-logo">
+                  <a href="/backend/dashboard.html" class="header-logo">
                       <img src="../assets/images/logo.png" class="img-fluid rounded-normal light-logo" alt="logo">
                       <img src="../assets/images/logo-white.png" class="img-fluid rounded-normal darkmode-logo" alt="logo">
                   </a>
@@ -189,49 +205,13 @@
                                                       </a>
                                                   </div>
                                                   <div class="profile-detail mt-3">
-                                                  <h5><a href="../app/user-profile-edit.html">Panny Marco</a></h5>
+                                                  <h5>Panny</h5>
+                                                  <h6><a href="/app/user-profile-edit.html">Edit Profile</a></h6>
                                                   <p><a href=""></a></p>
                                                   </div>
-                                                  <a href="auth-sign-in.html" class="btn btn-primary">Sign Out</a>
+                                                  <a href="/index.html" class="btn btn-primary">Sign Out</a>
                                               </div>
-                                              <div class="profile-details mt-4 pt-4 border-top">
-                                                  <div class="media align-items-center mb-3">
-                                                      <div class="rounded-circle iq-card-icon-small bg-primary">
-                                                          A
-                                                      </div>
-                                                      <div class="media-body ml-3">
-                                                          <div class="media justify-content-between">
-                                                              <h6 class="mb-0">Anna Mull</h6>
-                                                              <p class="mb-0 font-size-12"><i>Signed Out</i></p>
-                                                          </div>
-                                                          <p class="mb-0 font-size-12"></p>
-                                                      </div>                                                 
-                                                  </div>
-                                                  <div class="media align-items-center mb-3">
-                                                      <div class="rounded-circle iq-card-icon-small bg-success">
-                                                          K
-                                                      </div>
-                                                      <div class="media-body ml-3">
-                                                          <div class="media justify-content-between">
-                                                              <h6 class="mb-0">King Poilin</h6>
-                                                              <p class="mb-0 font-size-12"><i>Signed Out</i></p>
-                                                          </div>
-                                                          <p class="mb-0 font-size-12"><a href=""></a></p>
-                                                      </div>
-                                                  </div>
-                                                  <div class="media align-items-center">
-                                                      <div class="rounded-circle iq-card-icon-small bg-danger">
-                                                          D
-                                                      </div>
-                                                      <div class="media-body ml-3">
-                                                          <div class="media justify-content-between">
-                                                              <h6 class="mb-0">Devid Worner</h6>
-                                                              <p class="mb-0 font-size-12"><i>Signed Out</i></p>
-                                                          </div>
-                                                          <p class="mb-0 font-size-12"><a href=""></a></p>
-                                                      </div>
-                                                  </div>
-                                              </div>
+                                              
                                           </div>
                                       </div>
                                   </div>
@@ -255,27 +235,7 @@
                                 <span class="icon icon-grid i-list"><i class="ri-list-check font-size-20"></i></span>
                                 <span class="label label-list">List</span>
                             </div>
-                            <div class="dashboard1-dropdown d-flex align-items-center">
-                                <div class="dashboard1-info rounded">
-                                    <a href="#calander" class="collapsed" data-toggle="collapse" aria-expanded="false">
-                                        <i class="ri-arrow-down-s-line"></i>
-                                    </a>
-                                    <ul id="calander" class="iq-dropdown collapse list-inline m-0 p-0 mt-2">
-                                        <li class="mb-2">
-                                            <a href="#" data-toggle="tooltip" data-placement="right" title="Calander"><i
-                                                    class="las la-calendar iq-arrow-left"></i></a>
-                                        </li>
-                                        <li class="mb-2">
-                                            <a href="#" data-toggle="tooltip" data-placement="right" title="Keep"><i
-                                                    class="las la-lightbulb iq-arrow-left"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-toggle="tooltip" data-placement="right" title="Tasks"><i
-                                                    class="las la-tasks iq-arrow-left"></i></a>
-                                        </li>                                        
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         </div>
                      </div>
                 </div>
@@ -356,7 +316,7 @@
                                             </td>
                                             <td>Me</td>
                                             <td>Mar 30, 2020 Gail Forcewind</td>
-                                            <td>10 MB</td>
+                                            <td>10MB</td>
                                             <td>
                                                 <div class="dropdown">
                                                     <span class="dropdown-toggle" id="dropdownMenuButton10" data-toggle="dropdown">
@@ -383,7 +343,7 @@
                                             </td>
                                             <td>Penny</td>
                                             <td>Mar 31, 2020 Penny</td>
-                                            <td>65 MB</td>
+                                            <td>65MB</td>
                                             <td>
                                                 <div class="dropdown">
                                                     <span class="dropdown-toggle" id="dropdownMenuButton11" data-toggle="dropdown">
@@ -410,7 +370,7 @@
                                             </td>
                                             <td>Banny</td>
                                             <td>Mar 30, 2020 Banny</td>
-                                            <td>90 MB</td>
+                                            <td>90MB</td>
                                             <td>
                                                 <div class="dropdown">
                                                     <span class="dropdown-toggle" id="dropdownMenuButton13" data-toggle="dropdown">
@@ -437,7 +397,7 @@
                                             </td>
                                             <td>Me</td>
                                             <td>Apr 04, 2020 me</td>
-                                            <td>10 MB</td>
+                                            <td>10MB</td>
                                             <td>
                                                 <div class="dropdown">
                                                     <span class="dropdown-toggle" id="dropdownMenuButton12" data-toggle="dropdown">
@@ -475,13 +435,21 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 text-right">
-                    Copyright 2020 <a href="#">CloudBOX</a> All Rights Reserved.
+                    copyright &copy;
+                    <span>
+                        <script>
+                            const today = new Date()
+                            const getYear = today.getFullYear()
+                            document.write(getYear)
+                        </script>
+                    </span>
+                     <a href="/backend/dashboard.html">| ACMShare |</a> All Rights Reserved.
                 </div>
             </div>
         </div>
     </footer>
     <!-- Backend Bundle JavaScript -->
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../assets/js/backend-bundle.min.js"></script>
+    <script src="../assets/js/backend-bundle.min.js"></script>
     
     <!-- Chart Custom JavaScript -->
     <script src="../assets/js/customizer.js"></script>
